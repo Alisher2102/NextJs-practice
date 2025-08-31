@@ -1,0 +1,12 @@
+import classes from "./MeetUpDetail.module.css";
+const MeetUpDetails = (props) => {
+  return (
+    <section className={classes.detail}>
+      <img src={props.image} alt={props.title} />
+      <h1>{props.title}</h1>
+      <addres>{props.address}</addres>
+      <p>{props.description}</p>
+    </section>
+  );
+};
+export default MeetUpDetails;
