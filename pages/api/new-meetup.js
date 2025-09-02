@@ -1,5 +1,4 @@
 import { MongoClient } from "mongodb";
-import { useRouter } from "next/router";
 const handler = async (req, res) => {
   if (req.method === "POST") {
     const data = req.body;

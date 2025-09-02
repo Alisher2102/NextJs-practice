@@ -49,7 +49,7 @@ export async function getStaticProps() {
         address: meetup.address,
       })),
     },
-    revalidate: 3600,
+    revalidate: 1,
   };
 }
 export default HomePage;
